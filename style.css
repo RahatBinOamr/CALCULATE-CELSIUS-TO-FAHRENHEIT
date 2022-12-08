@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(45deg,cyan, purple);
+    height: 100vh;
+    
+}
+#form{
+    width: 40%;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    margin: 200px auto;
+    border-radius: 10px;
+
+}
+#form h1{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    margin: 10px 0;
+}
+#form p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 10px;
+    color: purple;
+    font-weight: bold;
+}
+#form input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+#form button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(45deg,cyan, purple);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+
+}
